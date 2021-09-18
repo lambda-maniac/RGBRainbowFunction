@@ -1,4 +1,4 @@
-def rainbowF(n, frequency = .1, waveCenter = 128, waveWidth = 127):
+def rainbowRGB(n, frequency = .1, waveCenter = 128, waveWidth = 127):
     from math import sin
 
     r = int(sin(frequency * n + 2) * waveWidth + waveCenter)
